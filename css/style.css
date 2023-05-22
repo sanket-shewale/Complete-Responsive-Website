@@ -474,3 +474,15 @@ text-align: center;
 }
 
 }
+@media (max-width:360px)
+{
+  .nav-item a{
+    color: #fff!important;
+    font-weight: bold;
+    text-shadow: 1px 4px 2px rgba(0,0,0,.2);
+  }
+  .text-white {
+    color: #fff!important;
+    text-shadow: 1px 4px 2px rgba(0,0,0,.2);
+  }
+}
