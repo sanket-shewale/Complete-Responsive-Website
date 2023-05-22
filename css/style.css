@@ -71,6 +71,11 @@ a:hover{
 .nav-item a{
   color: #fff!important;
   font-weight: bold;
+  text-shadow: 1px 4px 2px rgba(0,0,0,.2);
+}
+.text-white {
+  color: #fff!important;
+  text-shadow: 1px 4px 2px rgba(0,0,0,.2);
 }
 .heder-section{
   width: 100%;
@@ -426,6 +431,18 @@ text-align: center;
   margin-top:  31px;
     font-size: 1.4rem;
 }
+.nav-item a {
+
+  color: #f6f5f5 !important;
+  font-weight: bold;
+  text-shadow: 1px 4px 2px rgba(0,0,0,.2);
+  background: #02ccff!important;
+ }
+ .navbar-dark .navbar-brand {
+     color: #16c9fc !important;
+     font-weight: bold;
+     text-shadow: 1px 4px 2px rgba(0,0,0,.2);
+ }
 }
 @media (max-width:1280px){
   .pricing {
