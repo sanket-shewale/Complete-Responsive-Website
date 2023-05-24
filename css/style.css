@@ -511,4 +511,13 @@ text-align: center;
     color: #fff!important;
     text-shadow: 1px 4px 2px rgba(0,0,0,.2);
   }
+  .footersection h3 {
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    padding-top: 13px;
+}
 }
