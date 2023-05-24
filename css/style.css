@@ -137,7 +137,30 @@ a:hover{
 i{
   color:#4dd0e1;
 }
+.header-extradiv button{
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color:#16c9f6;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.header-extradiv button:hover{
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
 
+header-extradiv:active {
+  background-color: #16c9f6;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  text-shadow: 1px 4px 2px rgba(0,0,0,.2);
+  transform: scale(0.98);
+}
 /********* our offer *********/
 
 .servicesoffer{
@@ -367,6 +390,7 @@ form:hover .form-button button{
   color: #fff !important;
   background: #5bc0de !important;
   border-radius: 0 100px 100px 0 !important;
+  border: none;
 }
 
 .newletter h1,.contanctus h1{
