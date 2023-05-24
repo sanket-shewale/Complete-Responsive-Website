@@ -135,7 +135,7 @@ a:hover{
  transform: translateY(-20px);
 }
 i{
-  color:#4dd0e1;
+  color:#16c9f6;
 }
 .header-extradiv button{
   padding: 12.5px 30px;
@@ -148,9 +148,10 @@ i{
   -webkit-transition: all 0.5s;
 }
 .header-extradiv button:hover{
-  background-color: #6fc5ff;
-  box-shadow: 0 0 20px #6fc5ff50;
+  background-color: #fff;
+  color: #000;
   transform: scale(1.1);
+  
 }
 
 header-extradiv:active {
