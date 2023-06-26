@@ -64,7 +64,7 @@
       <div class="extra-div col-lg-4 col-md-4 col-12">
         <a href="#"><i class="  fa fa-sharp fa-light fa-computer fa-4x"></i></a>
         <h2>Easy to use </h2>
-        <p>We have carefully designed our interface with intuitive navigation and clear, concise content. Our goal is to eliminate any barriers between you and the information or services you seek. Whether you're browsing on a desktop computer, tablet, or mobile device, our responsive design seamlessly adapts to provide a seamless experience across all platforms The color palette is a perfect blend of sophistication and vibrancy.</p>
+        <p>We have carefully designed our interface with intuitive navigation and clear, concise content. Our goal is to eliminate any barriers between you and the information or services you seek. Whether you're browsing on a desktop computer, tablet, or mobile device.</p>
         <button>
           Get Started
       </button>
@@ -72,7 +72,7 @@
       <div class="extra-div col-lg-4 col-md-4 col-12">
         <a href="#"><i class="fa fa-sharp fa-medal fa-4x"></i></i></a>
         <h2>Aswomse design</h2>
-        <p >We take a collaborative approach, working closely with you to understand your unique vision, brand identity, and target audience. Our design process is iterative, allowing us to refine and polish until we achieve the perfect balance between creativity and functionality. By seamlessly integrating your brand story into our designs, we create a cohesive visual language that captivates and resonates with your audience.</p>
+        <p>We have carefully designed our interface with intuitive navigation and clear, concise content. Our goal is to eliminate any barriers between you and the information or services you seek. Whether you're browsing on a desktop computer, tablet, or mobile device.</p>
         <button>
           Get Started
       </button>
@@ -80,8 +80,8 @@
       <div class=" extra-div col-lg-4 col-md-4 col-12">
         <a href="#"><i class=" fa fa-sharp fa-light fa-star fa-4x"></i></a>
         <h2>Creator</h2>
-        <p >Welcome to our website, where creativity knows no bounds! We are a passionate team of creators dedicated to crafting remarkable experiences and bringing imaginative ideas to life. With our expertise in various fields,From designing stunning visuals to developing immersive interactive experiences, we push the boundaries of what is possible, continually pushing ourselves to reach new heights of creativity.</p>
-        <button>
+        <p>We have carefully designed our interface with intuitive navigation and clear, concise content. Our goal is to eliminate any barriers between you and the information or services you seek. Whether you're browsing on a desktop computer, tablet, or mobile device.</p>
+        <button href="#footerdiv">
           Get Started
       </button>
       </div>
@@ -469,7 +469,10 @@
         <p>Copyright © 2023 Webtech Rights Reserved All Rights Reserved.</p>
       </div>
     </div>
-
+    <div  class="scrolltop float-left "style="
+    margin-left: 96%;">
+        <i class="fa-solid fa-arrow-up "onclick="topFuncation()" id="to-top"> </i>
+    </div>
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
@@ -478,5 +481,25 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 
+
+<script>
+ document.querySelector("#to-top").addEventListener("click", function(){
+
+var toTopInterval = setInterval(function(){
+
+    var supportedScrollTop = document.body.scrollTop > 0 ? document.body : document.documentElement;
+
+    if (supportedScrollTop.scrollTop > 0) {
+        supportedScrollTop.scrollTop = supportedScrollTop.scrollTop - 50;
+    }
+
+    if (supportedScrollTop.scrollTop < 1) {
+        clearInterval(toTopInterval);
+    }
+
+}, 10);
+
+},false);
+</script>
 </body>
 </html>
