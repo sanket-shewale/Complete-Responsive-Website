@@ -1,3 +1,7 @@
+#html{
+  scroll-behavior:  smooth;
+}
+
 *{
   margin:0;
   padding:0;
@@ -25,7 +29,7 @@ li{
   font-weight: 400;
   margin-bottom: 32px;
   color: #000;
-  text-align: justify;
+  /* text-align: justify; */
 }
 /********* css *********/
 
@@ -35,9 +39,10 @@ li{
   width:100%;
   background-image:linear-gradient(rgba(0,168,255,0.3),rgba( 0,168,255,0.3)) ,url('../img/image_2.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size:cover;
   clip-path: polygon(100% 0%,100% 75%,50% 100%,0 75%,0 0);
   position: relative;
+  
 }
 a:hover{
   transform: translateY(-5px);
@@ -188,6 +193,16 @@ header-extradiv:active {
  display: flex;
  justify-content: center;
  align-items: center;
+
+}
+.services-icon:hover{
+  box-shadow:0 0 20px 0 rgba(0,0,0,0.3) ;
+ transform: translateY(-20px);
+  transition:0.3s linear all;
+  background-color: #ffffff;
+  border-radius: 9%;
+  
+
 }
 .progress{
   font-size: 0.6rem !important;
@@ -406,7 +421,7 @@ form:hover .form-button button{
   width: 100%;
   height: auto;
   padding: 70px 0 20px 0;
-  background:  #16c9f6;
+  background:  #00abff;
   position: relative;
 }
 .footersection p{
@@ -429,7 +444,20 @@ text-align: center;
   font-weight: bold;
   text-shadow: 0 2px 5px rgba(0,0,0,0.4);
 }
-
+#to-top{ 
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  color: #fff;
+  background: #00abff;
+  padding: 10PX;
+  border-radius: 10px;
+}
+#to-top:hover{
+  background-color: #606060 ;
+}
 
 /****media qurey****/
 
